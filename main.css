@@ -1,5 +1,7 @@
 body{
   margin: 0;
+  height: 100vh;
+  font-family: Rubik;
 }
 header{margin: 0;
   width: 100%;
@@ -26,6 +28,7 @@ justify-content: center;
 }
 .blog, .contacto{
   display: inline-block;
+  font-size: 16px;
 }
 .blog{
   padding-right: 10px;
@@ -33,6 +36,16 @@ justify-content: center;
 .contacto{
   padding-left: 10px;
 }
-main{
+.principal{
+  margin: 0;
+  box-sizing: border-box;
+  padding-top: 13px;
   background-color: #3CDBC0;
+  height: 100%;
+}
+h1{
+  margin: 0;
+  font-size: 30px;
+  color: #FFFFFFF;
+
 }

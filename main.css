@@ -1,4 +1,29 @@
 body{
-  margin 0;
-  background-color: lightgreen;
+  margin: 0;
+}
+header{margin: 0;
+  width: 100%;
+}
+.imagen-logo{
+  width: 155px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.adalab-logo{
+display: flex;
+justify-content: center;
+}
+.menu{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #4a4a4a;
+  width: 100%;
+  text-align: center;
+}
+.blog, .contacto{
+  display: inline-block;
+}
+main{
+  background-color: #3CDBC0;
 }

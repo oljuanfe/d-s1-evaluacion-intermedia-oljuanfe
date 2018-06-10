@@ -1,0 +1,74 @@
+body{
+  margin: 0;
+  height: 100vh;
+  font-family: 'Rubik',arial, helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+header{margin: 0;
+  width: 100%;
+  margin-bottom:13px;
+  @media all and (min-width:768px){
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.imagen-logo{
+  width: 155px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  @media all and (min-width:768px){
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  }
+}
+.adalab-logo{
+padding: 10px, 0px;
+display: flex;
+justify-content: center;
+}
+.menu{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  text-align: center;
+    @media all and (min-width:768px){
+      margin-right: 30px;
+    }
+}
+.blog, .contacto{
+  display: inline-block;
+  font-size: 16px;
+}
+.blog{
+  padding-right: 10px;
+}
+.contacto{
+  padding-left: 10px;
+}
+.enlaceblog, .enlacecontacto{
+  text-decoration: none;
+  color: #4a4a4a;
+}
+.principal{
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #3CDBC0;
+  flex-grow: 1;
+  text-align: center;
+}
+h1{
+  margin: 50% 0;
+  font-size: 30px;
+  color: #FFFFFF;
+  @media all and (min-width:768px){
+    font-size: 40px;
+  }
+}

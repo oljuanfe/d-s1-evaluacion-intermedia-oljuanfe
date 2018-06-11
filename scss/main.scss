@@ -1,5 +1,10 @@
+html{
+  height: 100%;
+}
+
 body{
   margin: 0;
+  height: 100%;
   font-family: 'Rubik',arial, helvetica, sans-serif;
   display: flex;
   flex-direction: column;
@@ -67,15 +72,18 @@ justify-content: center;
 }
 
 .principal{
+  height: 100%;
   margin: 0;
   box-sizing: border-box;
   background-color: #3CDBC0;
-  flex-grow: 1;
-  text-align: center;
+  // flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1{
-  margin: 50% 0;
+  margin:0;
   font-size: 30px;
   color: #FFFFFF;
   @media all and (min-width:768px){

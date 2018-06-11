@@ -5,6 +5,8 @@ body {
   margin: 0;
   height: 100%;
   font-family: 'Rubik',arial, helvetica, sans-serif;
+  color: #FFFFFF;
+  font-size: 16px;
   display: flex;
   flex-direction: column; }
 
@@ -48,8 +50,7 @@ header {
       margin-right: 30px; } }
 
 .blog, .contacto {
-  display: inline-block;
-  font-size: 16px; }
+  display: inline-block; }
 
 .blog {
   padding-right: 10px; }
@@ -72,8 +73,8 @@ header {
 
 h1 {
   margin: 0;
-  font-size: 30px;
-  color: #FFFFFF; }
+  text-align: center;
+  font-size: 30px; }
   @media all and (min-width: 768px) {
     h1 {
       font-size: 40px; } }

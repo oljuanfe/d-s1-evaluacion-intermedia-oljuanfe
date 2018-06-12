@@ -1,8 +1,8 @@
-html{
+html {
   height: 100%;
 }
 
-body{
+body {
   margin: 0;
   height: 100%;
   font-family: 'Rubik',arial, helvetica, sans-serif;
@@ -12,7 +12,7 @@ body{
   flex-direction: column;
 }
 
-header{
+header {
   margin: 0;
   width: 100%;
   margin-bottom:13px;
@@ -24,7 +24,7 @@ header{
   }
 }
 
-.imagen-logo{
+.imagen-logo {
   width: 155px;
   margin-left: auto;
   margin-right: auto;
@@ -38,13 +38,13 @@ header{
   }
 }
 
-.adalab-logo{
+.adalab-logo {
 padding: 10px, 0px;
 display: flex;
 justify-content: center;
 }
 
-.menu{
+.menu {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -55,24 +55,24 @@ justify-content: center;
     }
 }
 
-.blog, .contacto{
+.blog, .contacto {
   display: inline-block;
 }
 
-.blog{
+.blog {
   padding-right: 10px;
 }
 
-.contacto{
+.contacto {
   padding-left: 10px;
 }
 
-.enlaceblog, .enlacecontacto{
+.enlaceblog, .enlacecontacto {
   text-decoration: none;
   color: #4a4a4a;
 }
 
-.principal{
+.principal {
   height: 100%;
   margin: 0;
   box-sizing: border-box;
@@ -82,11 +82,12 @@ justify-content: center;
   align-items: center;
 }
 
-h1{
+h1 {
   margin:0;
+width: 240px;
   text-align: center;
   font-size: 30px;
-  @media all and (min-width:768px){
+  @media all and (min-width:768px) {
     font-size: 40px;
   }
 }
